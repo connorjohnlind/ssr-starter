@@ -1,0 +1,14 @@
+@import './scss/normalize';
+@import './scss/animations';
+@import './scss/base';
+@import './scss/format';
+@import './scss/variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: green;
+}

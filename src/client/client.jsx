@@ -8,6 +8,10 @@ import { renderRoutes } from 'react-router-config';
 import Routes from './Routes';
 import reducers from './store/reducers';
 
+import './client.scss';
+import './fonts/Roboto/Roboto.scss';
+import './images/favicon.ico';
+
 /* eslint-disable no-underscore-dangle */
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(reducers, window.INITIAL_STATE, composeEnhancers(applyMiddleware(thunk)));
