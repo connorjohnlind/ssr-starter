@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions"]
+        },
+        "useBuiltIns": "entry",
+        "debug": false
+      }
+    ],
+    "stage-0", "babel-preset-react"
+  ],
+  "plugins": ["transform-runtime", "syntax-dynamic-import"]
+}
